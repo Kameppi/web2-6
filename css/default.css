@@ -38,9 +38,14 @@ footer{
 }
 
 @media scleen and (max-width:641px) and (max-width:980px){
-  body{
-    background-color: green;
+  aside{
+    width: colc(50%-20%);
+    float:left;
   }
+  #side:after{
+    content:"";
+    display:block;
+    clear:both;
 }
 
 @media screen and (max-width:981px){
