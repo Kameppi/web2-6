@@ -31,7 +31,7 @@ footer{
   text-align: center;
 }
 
-/*@media screen and (max-width:640px){
+@media screen and (max-width:640px){
   body{
     background-color: red;
   }
@@ -59,4 +59,4 @@ footer{
   body:after{
     content: "横長";
   }
-}*/
+}
